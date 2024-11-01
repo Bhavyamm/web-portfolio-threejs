@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { navLinks } from '../constants/index';
+import { navLinks } from '../../constants/index';
 
 const NavItems = ({ onClick = () => { } }) => (
     <ul className="nav-ul">

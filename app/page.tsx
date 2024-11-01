@@ -1,6 +1,8 @@
-import About from 'components/About'
-import Hero from 'components/Hero'
-import Navbar from 'components/Navbar'
+import About from 'components/sections/About'
+import Contact from 'components/sections/Contact'
+import Hero from 'components/sections/Hero'
+import Navbar from 'components/sections/Navbar'
+import Projects from 'components/sections/Projects'
 import React from 'react'
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
+      <Contact />
     </div>
   )
 }

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
-import Button from './Button';
+import Button from '../Button';
 import Image from 'next/image';
 
 const About = () => {
