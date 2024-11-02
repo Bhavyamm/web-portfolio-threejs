@@ -1,5 +1,6 @@
 import '@/global.css';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: "Bhavyam's Portfolio",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
