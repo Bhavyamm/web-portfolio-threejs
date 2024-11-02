@@ -1,4 +1,3 @@
-import { Layout } from '@/components/dom/Layout'
 import '@/global.css'
 
 export const metadata = {
@@ -11,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang='en' className='antialiased'>
       <head />
       <body>
-        <Layout>{children}</Layout>
+        {children}
       </body>
     </html>
   )
