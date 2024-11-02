@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from 'react';
-import Globe from 'react-globe.gl';
+import dynamic from 'next/dynamic';
 import Button from '../Button';
 import Image from 'next/image';
+
+const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
@@ -57,6 +59,7 @@ const About = () => {
                 <div className="col-span-1 xl:row-span-4">
                     <div className="grid-container">
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+                            {/* Render Globe only if it's loaded */}
                             <Globe
                                 height={326}
                                 width={326}
