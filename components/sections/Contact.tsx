@@ -22,8 +22,8 @@ const Contact = () => {
 
         emailjs
             .send(
-                "service_ytazxg9",
-                "template_wbcys02",
+                process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
+                process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID,
                 {
                     from_name: form.name,
                     to_name: 'Bhavyam Mittal',
@@ -31,7 +31,7 @@ const Contact = () => {
                     to_email: 'bhavyamm01@gmail.com',
                     message: form.message,
                 },
-                "kDoSNXUKTjm6iB08M",
+                process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY,
             )
             .then(
                 () => {

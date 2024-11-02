@@ -15,6 +15,7 @@
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.92.7",
     "@react-three/fiber": "^8.15.12",
+    "dotenv": "^16.4.5",
     "glsl-random": "^0.0.5",
     "gsap": "^3.12.5",
     "leva": "^0.9.35",

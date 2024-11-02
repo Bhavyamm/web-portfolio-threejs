@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import About from 'components/sections/About'
 import Contact from 'components/sections/Contact'
 import Experience from 'components/sections/Experience'
