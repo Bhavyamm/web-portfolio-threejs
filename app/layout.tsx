@@ -1,4 +1,5 @@
-import '@/global.css'
+import '@/global.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Next.js + Three.js',
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         {children}
+        <Analytics />
       </body>
     </html>
   )
