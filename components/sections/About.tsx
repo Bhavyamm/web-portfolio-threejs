@@ -31,7 +31,7 @@ const About = () => {
                         />
 
                         <div>
-                            <p className="grid-headtext">Hi, I'm Bhavyam Mittal</p>
+                            <p className="grid-headtext">Hi, I&apos;m Bhavyam Mittal</p>
                             <p className="grid-subtext">
                                 With 3 years of experience, I have honed my skills in frontend development, creating dynamic
                                 and responsive websites.
@@ -69,8 +69,8 @@ const About = () => {
                             />
                         </div>
                         <div>
-                            <p className="grid-headtext">I'm very flexible with time zone communications & locations</p>
-                            <p className="grid-subtext">I'm based in Bangalore, India and open to remote work worldwide.</p>
+                            <p className="grid-headtext">I&apos;m very flexible with time zone communications & locations</p>
+                            <p className="grid-subtext">I&apos;m based in Bangalore, India and open to remote work worldwide.</p>
                             <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                         </div>
                     </div>
@@ -83,8 +83,8 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">My Passion for Coding</p>
                             <p className="grid-subtext">
-                                I love solving problems and building things through code. Programming isn't just my
-                                profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.
+                                I love solving problems and building things through code. Programming isn&apos;t just my
+                                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
                             </p>
                         </div>
                     </div>
